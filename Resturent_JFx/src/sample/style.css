@@ -1,0 +1,18 @@
+.mainbgr{
+    -fx-background-color: #d5d7d9;
+    -fx-background-radius: 20 0 0 20;
+}
+.menubar1{
+    -fx-background-color: #ebb33b;
+    -fx-background-radius: 20 0 0 20;
+}
+.menubar2{
+    -fx-background-color: #FFFFFF;
+}
+.bar{
+-fx-background-color: #f4663d}
+
+.littlebar{-fx-background-color: #f4663d
+}
+.littlebar:hover{
+-fx-background-color: #ffffff}

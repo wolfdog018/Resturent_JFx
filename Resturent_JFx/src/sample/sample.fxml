@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="1024.0" styleClass="mainbgr" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="119.0" styleClass="menubar1">
+         <children>
+            <Pane fx:id="hometab" layoutY="138.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#hometab" prefHeight="55.0" prefWidth="119.0" styleClass="littlebar">
+               <children>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="53.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/home.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="foodtab" layoutY="221.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#foodtab" prefHeight="55.0" prefWidth="119.0" styleClass="littlebar">
+               <children>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="52.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Hamburguer.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="delivarytab" layoutY="313.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#delivarytab" prefHeight="55.0" prefWidth="119.0" styleClass="littlebar">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="49.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/delivery.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="delivarytab1" layoutX="-1.0" layoutY="397.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#delivarytab" prefHeight="55.0" prefWidth="119.0" styleClass="littlebar">
+               <children>
+                  <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="56.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/reminder-ring.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="570.0" prefWidth="115.0" styleClass="menubar2" HBox.hgrow="ALWAYS">
+         <children>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="905.0" styleClass="bar" />
+            <Pane prefHeight="186.0" prefWidth="905.0">
+               <children>
+                  <Pane layoutX="20.0" layoutY="-7.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="186.0" prefWidth="200.0" styleClass="bar">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="20.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@image/Chef.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="41.0" layoutY="166.0" text="Resturent" textFill="WHITE">
+                           <font>
+                              <Font name="FreeMono Bold" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <ImageView fx:id="closetab" fitHeight="30.0" fitWidth="30.0" layoutX="870.0" layoutY="5.0" onMouseClicked="#close" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Close.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="minitab" fitHeight="30.0" fitWidth="30.0" layoutX="834.0" layoutY="6.0" onMouseClicked="#mini" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Minus.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="232.0" layoutY="14.0" text="Fast Food Demo">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="contentArea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="903.0">
+               <children>
+                  <AnchorPane layoutY="24.0" prefHeight="300.0" prefWidth="900.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <Pane layoutX="32.0" layoutY="14.0" prefHeight="275.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="154.0" fitWidth="182.0" layoutX="11.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Cheeseburger.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="28.0" layoutY="166.0" text="CheeseBurger">
+                                 <font>
+                                    <Font name="System Bold" size="19.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="42.0" layoutY="202.0" prefHeight="45.0" prefWidth="120.0" style="-fx-background-color: #c9db1e;" text="Order Now">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="251.0" layoutY="14.0" prefHeight="275.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="121.0" fitWidth="182.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Cheese-Pizza.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="28.0" layoutY="166.0" text="Cheese Pizza">
+                                 <font>
+                                    <Font name="System Bold" size="19.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="42.0" layoutY="202.0" prefHeight="45.0" prefWidth="120.0" style="-fx-background-color: #c9db1e;" text="Order Now">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="466.0" layoutY="13.0" prefHeight="275.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="144.0" fitWidth="146.0" layoutX="31.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/Chicken-Pizza.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="28.0" layoutY="169.0" text="Chicken Pizza">
+                                 <font>
+                                    <Font name="System Bold" size="19.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="42.0" layoutY="202.0" prefHeight="45.0" prefWidth="120.0" style="-fx-background-color: #c9db1e;" text="Order Now">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="670.0" layoutY="12.0" prefHeight="275.0" prefWidth="200.0">
+                           <children>
+                              <ImageView fitHeight="111.0" fitWidth="182.0" layoutX="9.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@image/veggie-burger.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="28.0" layoutY="169.0" text="Veggie Burger">
+                                 <font>
+                                    <Font name="System Bold" size="19.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="CENTER" layoutX="42.0" layoutY="202.0" prefHeight="45.0" prefWidth="120.0" style="-fx-background-color: #c9db1e;" text="Order Now">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </children></Pane>
+         </children>
+      </VBox>
+   </children>
+</HBox>
